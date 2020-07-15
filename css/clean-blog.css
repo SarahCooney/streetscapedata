@@ -424,3 +424,25 @@ footer .copyright {
     font-weight: 800;
     letter-spacing: 1px;
 }
+
+.float-container {
+    padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+	.float-child {
+		width: 50%;
+		float: left;
+		padding: 20px;
+		
+	}  
+}
+
+.float-child {
+		width: 50%;
+		float: left;
+		padding: 20px;
+		margin-right: 20px
+		
+	}  
+
