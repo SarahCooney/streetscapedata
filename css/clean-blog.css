@@ -426,23 +426,20 @@ footer .copyright {
 }
 
 .float-container {
-    padding: 20px;
+
+	align-items: center;
 }
 
-@media only screen and (min-width: 768px) {
-	.float-child {
-		width: 50%;
-		float: left;
-		padding: 20px;
-		
-	}  
-}
 
 .float-child {
 		width: 50%;
 		float: left;
-		padding: 20px;
-		margin-right: 20px
 		
 	}  
 
+@media only screen and (max-width: 600px) {
+	.float-child {
+		width: 100%;
+		
+	}  
+}
